@@ -21,10 +21,10 @@ const styles = StyleSheet.create({
     backgroundStyle:{
         backgroundColor:'rgb(150, 219, 237)',
         height: 50,
-        marginHorizontal: 15,
+
         borderRadius: 5,
         flexDirection: 'row',
-        margin: 10
+        margin: 15
     },
     inputStyle:{
         fontSize: 20,
