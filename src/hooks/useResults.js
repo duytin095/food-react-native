@@ -7,7 +7,6 @@ import yelp from "../api/yelp";
   
     const searchAPI = async (searchTerm) => {
       try {
-        console.log('hi there');
         const response = await yelp.get('/search', {
           params: {
             limit: 50,
